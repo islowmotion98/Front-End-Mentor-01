@@ -1,0 +1,133 @@
+    body, html{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      background-color: #ccc;
+      margin: auto;
+      font-family: 'Red Hat Display', sans-serif;
+      font-size: 14px;
+    }
+    .content{
+      width: 90%;
+      height: 550px;
+      max-width: 330px;
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background-color: white;
+    }
+    .div-img{
+      width: 100%;
+      height: 28%;
+      background-image: url(./images/illustration-hero.svg);
+      background-size: cover;
+      display: block;
+      background-position: bottom;
+      background-repeat: no-repeat;
+      padding: 0;
+      margin: 0;
+    }
+    .resto-1{
+      background-color: white;
+      width: 85%;
+      margin-right: 100px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 10px auto;
+      margin-top: 20px;
+    }
+    .resto-1 p1{
+      margin-right: 30px;
+      margin-left: 30px;
+      font-size: 1em;
+      line-height: 1.4em;
+      font-family: 'Red Hat Display', sans-serif;
+      color: hsl(224, 23%, 55%);
+      line-height: 1.6em;
+    }
+    .resto-2{
+      width: 85%;
+      margin-top: 10px;
+      margin-left: 25px;
+      background-color: hsl(225, 100%, 98%);
+      display: flex;
+      text-align: center;
+      align-items: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .resto-2 img{
+      width: 40px;
+      height: 40px;
+      padding-left: 20px;
+      padding-right: 15px;
+    }
+    .resto-2 a{
+      padding-left: 60px;
+    }
+    .resto-3{
+      width: 85%;
+      height: 20%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .resto-3 a{
+      padding: 15px;
+      width: 250px;
+      border-radius: 10px;
+      margin-right: 20px;
+      overflow: hidden;
+      margin-left: 20px;
+      font-weight: 700;
+    }
+    .buy{
+      background-color: hsl(245, 75%, 52%);
+      text-decoration: none;
+      color: white;
+    }
+    .buy:hover{
+      opacity: 0.7;
+      transition: 0.3s;
+    }
+    .sell{
+      background-color: white;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #666666;
+      font-weight: 600;
+    }
+    h1{
+      font-size: 1.5em;
+      font-weight: 900;
+      color: hsl(223, 47%, 23%);
+    }
+    .anual{
+      color: hsl(223, 47%, 23%);
+      font-weight: 900;
+      line-height: 1.5em;
+    }
+    .price{
+      color: hsl(224, 23%, 55%);
+      font-size: 13px;
+    }
+    .change{
+      font-weight: 700;
+      color:hsl(245, 75%, 52%)
+    }
+    .change:hover{
+      opacity: 0.7;
+      transition: 0.3s;
+    }
